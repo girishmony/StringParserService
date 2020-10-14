@@ -1,0 +1,30 @@
+{
+  "name": "StringParserService",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "unit-test": "nyc --reporter=html --reporter=text mocha './test/unit/*js' --reporter mochawesome  --reporter-options reportDir=test/unit/reports/,reportFilename=UnitTestReport",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girishmony/StringParserService.git"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.3",
+    "mochawesome": "^6.1.1",
+    "nyc": "^15.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/girishmony/StringParserService/issues"
+  },
+  "homepage": "https://github.com/girishmony/StringParserService#readme"
+}
