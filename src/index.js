@@ -10,5 +10,5 @@ app.use(express.json());
 app.use('/api',stringParserRoute);
 
 app.listen(port, () => {
-  console.log(`Fiserv app listening at http://localhost:${port}`)
+  console.log(`String Parser service listening at http://localhost:${port}`)
 })
